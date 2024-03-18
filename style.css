@@ -1,0 +1,195 @@
+html {
+  font-family: Menlo, Monaco, Lucida Console, "Courier New", Courier, monospace;
+  background: #fff;
+  letter-spacing: -0.025rem;
+}
+
+body,
+figure {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+p {
+  color: #666;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  margin: 0;
+  text-wrap: pretty;
+}
+
+main {
+  padding-top: 4rem;
+  margin: auto;
+  width: 100%;
+}
+
+h2 {
+  margin-bottom: 8px;
+  font-weight: 700;
+  line-height: 1.5;
+  font-size: 1.5rem;
+}
+
+section {
+  max-width: 700px;
+  margin: 0 auto 48px;
+}
+
+.stn-hero .container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.stn-hero .info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding-right: 32px;
+}
+
+.stn-hero h1 {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.stn-hero h2 {
+  font-size: 1.1rem;
+  color: #444;
+  font-weight: 500;
+  text-wrap: balance;
+}
+
+.stn-hero .hero-img {
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  width: 128px;
+  border-radius: 16px;
+}
+
+.stn-hero span {
+  color: #666;
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  font-size: 0.85rem;
+  letter-spacing: -0.05rem;
+}
+
+.stn-hero footer {
+  font-size: 0.65rem;
+  display: flex;
+  gap: 4px;
+  margin-top: 8px;
+}
+
+.stn-hero footer a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #eee;
+  padding: 4px;
+  height: 32px;
+  width: 32px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+.stn-hero footer a:hover {
+  background: #eee;
+  border: 1px solid #ddd;
+}
+
+.stn-experience ul {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.stn-experience article h3 {
+  font-weight: 500;
+  color: #111;
+}
+
+.stn-experience article a {
+  color: #111;
+}
+
+.stn-experience article a:hover {
+  text-decoration: underline;
+}
+
+.stn-experience article h4 {
+  color: #222;
+  font-weight: 400;
+}
+
+.stn-experience header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 4px;
+}
+
+.stn-experience .time {
+  color: #555;
+  font-size: 0.85rem;
+  min-width: 102px;
+}
+
+.stn-skills ul {
+  display: inline-flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.stn-skills li {
+  align-items: center;
+  background: #eee;
+  border-radius: 6px;
+  color: black;
+  display: flex;
+  font-size: 0.8rem;
+  font-weight: 500;
+  gap: 4px;
+  padding: 0.2rem 0.6rem;
+}
+
+.stn-languages ul {
+  display: inline-flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.stn-languages li {
+  align-items: center;
+  background: #eee;
+  border-radius: 6px;
+  color: black;
+  display: flex;
+  font-size: 0.8rem;
+  font-weight: 500;
+  gap: 4px;
+  padding: 0.2rem 0.6rem;
+}
